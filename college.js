@@ -58,5 +58,5 @@ function calcPoints() {
             }
         }
     }
-    alert(total);
+    alert("You have " + total + "points in total.");
 }
