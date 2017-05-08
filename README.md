@@ -1,1 +1,1 @@
-# collegepoints
+# College Points Website
