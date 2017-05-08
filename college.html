@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Points for College</title>
+ <script type= "text/javascript" src="college.js"></script> 
+ <link rel="stylesheet" type="text/css" href="college.css">
+ <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+</head>
+
+<body>
+<h1><span class = "letter">P</span>oints for <span class = "letter" >C</span>ollege</h1>
+<p>The best tool for students</p>
+<form id="form1" name="form1" method="post" action="">
+  <p>
+    <input type="button" name="button" id="button" value="List of Subjects" onclick="showSubjects()">
+  </p>
+  <div id="subjects"></div>
+  <p>
+    <input type="button" name="button2" id="button2" value="Select Grades" onClick="showGrades()">
+  </p>
+  
+  <!--<p>
+    <label>H1<input type="radio" name="points" value="100"></label>
+    <label>H2<input type="radio" name="points" value="88"></label>
+    <label>H3<input type="radio" name="points" value="77"></label>
+    <label>H4<input type="radio" name="points" value="66"></label>
+    <label>H5<input type="radio" name="points" value="56"></label>
+    <label>H6<input type="radio" name="points" value="46"></label>
+    <label>H7<input type="radio" name="points" value="37"></label>
+    <label>H8<input type="radio" name="points" value="0"></label>
+  </p>-->
+  <div id="grades"></div>
+  <p>
+    <input type="button" name="button3" id="button3" value="Calculate Points" onClick="calcPoints()">
+  </p>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
