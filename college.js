@@ -1,5 +1,5 @@
 
-subject = ['English', 'Maths', 'Physics', 'Programming', 'Computing', 'Visual Arts', 'Technology'];
+subject = ['English', 'Maths', 'Physics', 'Chemistry', 'Biology', 'History', 'Geography', 'Programming', 'Computing', 'Visual Arts', 'Technology'];
 ns = subject.length;
 
 
@@ -58,5 +58,5 @@ function calcPoints() {
             }
         }
     }
-    alert("You have " + total + "points in total.");
+    alert("You have " + total + " points in total.");
 }
