@@ -11,12 +11,17 @@
 <body>
 <h1><span class = "letter">P</span>oints for <span class = "letter" >C</span>ollege</h1>
 <p>The best tool for students</p>
+
 <form id="form1" name="form1" method="post" action="">
+
+  <div id="box">
+  <p>Target Points:</p>
+  <input type="text" name="textfield" id="needed">
+  </div>
   <p>
     <input type="button" name="button" id="button" value="List of Subjects" onclick="showSubjects()">
   </p>
   <div id="subjects"></div>
-  <p>
     <input type="button" name="button2" id="button2" value="Select Grades" onClick="showGrades()">
   </p>
   
@@ -34,7 +39,17 @@
   <p>
     <input type="button" name="button3" id="button3" value="Calculate Points" onClick="calcPoints()">
   </p>
+  <div id="box">
+  <p>Points Achieved:</p>
+    <label>
+      <input type="text" name="got" id="got">
+    </label>
 </form>
+  </div>
+
 <p>&nbsp;</p>
+<img src="https://img.clipartfest.com/dc9aa00defebc86c46f4748db8ece0e2_-question-mark-images-red-red-question-mark-clipart_2500-2500.jpeg" width="100px" id="icon"/>
+
+
 </body>
 </html>
